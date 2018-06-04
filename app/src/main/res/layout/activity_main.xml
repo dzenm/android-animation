@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/alpha_animation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="透明度动画" />
+
+        <Button
+            android:id="@+id/scale_animation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="渐变尺寸缩放动画" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first">
+
+        <Button
+            android:id="@+id/translate_animation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="位置移动动画" />
+
+        <Button
+            android:id="@+id/rotate_animation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="旋转动画" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/animationSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_margin="10dp"
+        android:onClick="onClick"
+        android:text="动画集" />
+    
+    <Button
+        android:id="@+id/activityTransition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/animationSet"
+        android:onClick="onClick"
+        android:text="activity切换动画" />
+    
+    <Button
+        android:id="@+id/all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/activityTransition"
+        android:onClick="onClick"
+        android:text="组合动画" />
+    
+    
+    
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/a" />
+
+
+</RelativeLayout>
