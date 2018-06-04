@@ -6,13 +6,13 @@
 2. Frame Animation（帧动画）
 3. Layout Animation（布局动画）
 
-   
+
 
 ##二、使用
 
 ### Tween Animation（变换动画）
 
-####一、常见动画
+### 一、常见动画
 
 1. Alpha：透明度渐变动画
 2. Scale：尺寸缩放动画
@@ -37,9 +37,7 @@
 
 ##### 1、通过配置文件：位于android project的/res/anim，如果不存在该文件夹，可直接新建anim文件夹。可以使用的属性有  `alpha`  ， `scale` ， `translate` ， `rotate`。
 
-
-
-#####2、通过Java代码实现：有如下几个方法 AlphaAnimation，ScaleAnimation，TranslateAnimation，RotateAnimation
+##### 2、通过Java代码实现：有如下几个方法 AlphaAnimation，ScaleAnimation，TranslateAnimation，RotateAnimation
 
 ```java
 // 创建Alpha动画，透明度10%---100%的变换
@@ -147,8 +145,6 @@ imageView.startAnimation(animation);
 
 
 
-
-
 ####七、RotateAnimation（旋转动画）
 
 1、fromDegrees、toDegrees：开始旋转的角度，结束旋转的角度
@@ -173,8 +169,6 @@ imageView.startAnimation(animation);
 ```
 
 ![旋转动画](https://github.com/freedomeden/AnimationDemo/blob/master/screenshots/4.gif?raw=true)
-
-
 
 
 
@@ -326,3 +320,4 @@ listView.startLayoutAnimation();
 
 
 ###[APK下载](https://github.com/freedomeden/AnimationDemo/raw/master/screenshots/app-debug.apk)
+
