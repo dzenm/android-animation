@@ -320,4 +320,3 @@ listView.startLayoutAnimation();
 
 
 ###[APK下载](https://github.com/freedomeden/AnimationDemo/raw/master/screenshots/app-debug.apk)
-
