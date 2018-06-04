@@ -8,11 +8,7 @@
 
    
 
-
-
 ##二、使用
-
-
 
 ### Tween Animation（变换动画）
 
@@ -329,3 +325,4 @@ listView.startLayoutAnimation();
 
 
 
+###[APK下载](https://github.com/freedomeden/AnimationDemo/raw/master/screenshots/app-debug.apk)
