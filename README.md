@@ -10,7 +10,7 @@
 
 
 
-##二、使用
+## 二、使用
 
 ### Tween Animation（变换动画）
 
@@ -52,7 +52,7 @@ img.startAnimation(alpha);
 
 
 
-####四、AlphaAnimation（透明度动画）
+#### 四、AlphaAnimation（透明度动画）
 
 1、fromAlpha：动画起始时透明度
 
@@ -147,7 +147,7 @@ imageView.startAnimation(animation);
 
 
 
-####七、RotateAnimation（旋转动画）
+#### 七、RotateAnimation（旋转动画）
 
 1、fromDegrees、toDegrees：开始旋转的角度，结束旋转的角度
 
@@ -174,7 +174,7 @@ imageView.startAnimation(animation);
 
 
 
-####八、组合动画
+#### 八、组合动画
 
 1、使用setAnimationListener设置监听事件，当第一个动画结束后，开始执行第二个动画
 
@@ -321,4 +321,4 @@ listView.startLayoutAnimation();
 
 
 
-###[APK下载](https://github.com/freedomeden/AnimationDemo/raw/master/screenshots/app-debug.apk)
+### [APK下载](https://github.com/freedomeden/AnimationDemo/raw/master/screenshots/app-debug.apk)
